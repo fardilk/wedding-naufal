@@ -28,3 +28,22 @@ html, body, #root {
   animation: sway-right 5s ease-in-out infinite;
   animation-delay: 0.8s;
 }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes mountain-zoom {
+  from { transform: scale(1.15); opacity: 0.4; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+.fade-up {
+  opacity: 0;
+  animation: fade-up 0.9s ease-out forwards;
+}
+
+.mountain-zoom {
+  animation: mountain-zoom 1.8s ease-out forwards;
+}

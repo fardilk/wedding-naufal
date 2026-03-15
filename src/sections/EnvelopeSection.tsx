@@ -42,17 +42,17 @@ export default function EnvelopeSection() {
 
       {/* Center content */}
       <div className="relative z-20 flex flex-col items-center text-center px-6">
-        <p className="text-sm tracking-[0.1em] text-stone-700 mb-8">
+        <p className="text-sm tracking-[0.1em] text-stone-700 mb-8 fade-up" style={{ animationDelay: '0.3s' }}>
           We invite you to The Wedding of
         </p>
 
-        <h1 className="text-3xl md:text-5xl font-light tracking-wide text-stone-800 leading-tight">
+        <h1 className="text-3xl md:text-5xl font-light tracking-wide text-stone-800 leading-tight fade-up" style={{ animationDelay: '0.7s' }}>
           Nabila <span className="text-stone-500">&amp;</span> Naufal
         </h1>
 
-        <div className="w-16 h-px bg-stone-400 my-8" />
+        <div className="w-16 h-px bg-stone-400 my-8 fade-up" style={{ animationDelay: '1.1s' }} />
 
-        <button className="flex items-center gap-2 bg-stone-700 hover:bg-stone-800 text-white text-sm tracking-widest px-8 py-3 rounded-full transition-colors">
+        <button className="flex items-center gap-2 bg-stone-700 hover:bg-stone-800 text-white text-sm tracking-widest px-8 py-3 rounded-full transition-colors fade-up" style={{ animationDelay: '1.4s' }}>
           Open the Invitation ✉
         </button>
       </div>
@@ -61,7 +61,7 @@ export default function EnvelopeSection() {
       <img
         src="/images/mountain-ornament.webp"
         alt=""
-        className="absolute left-0 w-full pointer-events-none select-none"
+        className="absolute left-0 w-full pointer-events-none select-none mountain-zoom"
         style={{ bottom: '-10em' }}
       />
 
