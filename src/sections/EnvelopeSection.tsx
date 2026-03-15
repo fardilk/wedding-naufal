@@ -1,6 +1,6 @@
 export default function EnvelopeSection() {
   return (
-    <section className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center" style={{ backgroundColor: '#6b7263' }}>
+    <section className="relative min-h-screen overflow-hidden flex flex-col items-center justify-center" style={{ backgroundColor: '#f7f2e8' }}>
 
       {/* Background illustration */}
       <img
