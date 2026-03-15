@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+@keyframes sway-left {
+  0%, 100% { transform: rotate(0deg); }
+  30%       { transform: rotate(4deg); }
+  60%       { transform: rotate(-2deg); }
+}
+
+@keyframes sway-right {
+  0%, 100% { transform: rotate(0deg); }
+  30%       { transform: rotate(-4deg); }
+  60%       { transform: rotate(2deg); }
+}
+
+.flower-sway-left {
+  transform-origin: 0% 40%;
+  animation: sway-left 5s ease-in-out infinite;
+}
+
+.flower-sway-right {
+  transform-origin: 0% 40%;
+  animation: sway-right 5s ease-in-out infinite;
+  animation-delay: 0.8s;
+}
